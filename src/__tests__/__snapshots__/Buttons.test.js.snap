@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders 1`] = `
+<div
+  className="extra content"
+>
+  <div
+    className="ui two buttons"
+  >
+    <button
+      className="ui blue basic button test"
+      onClick={[Function]}
+    >
+      Edit
+    </button>
+    <button
+      className="ui red basic button test2"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;

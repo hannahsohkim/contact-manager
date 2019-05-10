@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Notes from Hannah:
+I used Create React App to set up the project. For my state management solution I chose to use the React Context API. It was my first time using it in a project, so I am still learning. I would appreciate feedback!
+
+Please run 'npm install' to install dependencies, 'npm run build' to build the app, 'npm start' to run the app (http://localhost:3000 in the browser), and finally 'npm run server:start" to run the server (for the data).
+
+## Component structure
+Below is a high level view of how my components are laid out.
+
+```
+<App>
+  <ContactProvider>
+    <ContactList>
+      <Buttons>
+        <EditForm />
+        <DeleteForm />
+      </Buttons>
+    </ContactList>
+    <AddContact />
+  </ContactProvider>
+</App>
+```
+
 
 ## Available Scripts
 
